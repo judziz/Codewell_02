@@ -3,7 +3,7 @@
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.codewell.cc/challenges/chirp-landing-page--60fc1e36a383e41090a3c71c)
-[Vercel Link - Desktop version]()
+[Vercel Link - Desktop version](https://codewell-02.vercel.app/)
 
 ---
 
