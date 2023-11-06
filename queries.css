@@ -1,0 +1,91 @@
+@media (max-width: 91rem) {
+  .section-3 {
+    align-items: unset;
+  }
+}
+@media (max-width: 69rem) {
+  header,
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4,
+  footer {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+  .section-1 {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .section-1-img-desktop {
+    display: none;
+  }
+  .section-1-img-tablet {
+    display: block;
+  }
+  .section-1-img-box img {
+    width: 100%;
+  }
+  .main-txt {
+    font-size: 5.5rem;
+  }
+  .section-1-txt-box .secondary-txt {
+    max-width: 55rem;
+  }
+  .section-2-features-box {
+    grid-template-columns: 1fr;
+  }
+  .tablet-delete {
+    display: none;
+  }
+  .section-3 {
+    overflow: hidden;
+  }
+  .section-4 .secondary-txt {
+    text-align: center;
+  }
+}
+@media (max-width: 35rem) {
+  html {
+    font-size: 50%;
+  }
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .tablet-delete {
+    display: block;
+  }
+  .section-3-twitter-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-3 {
+    align-items: center;
+  }
+  .section-1-button-box {
+    flex-direction: column;
+  }
+  .section-1-button-box .twitter-button {
+    width: 100%;
+  }
+  .section-1-button-box .twitter-button img {
+    width: 6%;
+  }
+  .section-1-img-tablet {
+    display: none;
+  }
+  .section-1-img-desktop {
+    display: block;
+  }
+  .header-nav {
+    display: none;
+  }
+  .hamburg-butt {
+    display: block;
+  }
+  .hamburg-butt:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+/* -----------HEADER---------- */
+header {
+  padding: 3rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(245, 222, 179, 0.254);
+}
+.header-nav,
+.header-nav-links {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.header-nav-links a {
+  font-size: 1.6rem;
+  color: gray;
+  text-decoration: none;
+}
+.header-nav-links a:hover {
+  text-decoration: underline;
+}
+.twitter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 0.2rem;
+}
+.twitter-button:hover {
+  cursor: pointer;
+}
+.twitter-button:active {
+  cursor: pointer;
+  background-color: #1da0f2ca;
+  transform: translateY(0.4rem);
+}
+.twitter-button img {
+  width: 12%;
+}
+.chirp {
+  font-size: 1.8rem;
+  color: #1d80f2;
+  font-style: italic;
+  text-decoration: none;
+}
+/* -----------SECTION-1---------- */
+.section-1 {
+  padding: 0 10rem 3rem 10rem;
+  background-color: rgba(245, 222, 179, 0.254);
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.section-1-txt-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section-1-img-box img {
+  width: 50rem;
+}
+.section-1-button-box {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.section-1-button-box a {
+  color: #4d8483;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.section-1-button-box a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.section-1-icons-box img {
+  border: 0.1rem solid white;
+  border-radius: 100rem;
+  margin-right: -2.1rem;
+}
+.main-txt {
+  font-size: 6rem;
+  letter-spacing: 0.1rem;
+}
+.secondary-txt {
+  font-size: 2rem;
+  color: gray;
+  line-height: 2.5rem;
+}
+.secondary-txt span {
+  font-weight: 700;
+  color: #4d8483;
+}
+/* -----------SECTION-2---------- */
+.section-2 {
+  padding: 5rem 10rem 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.primary-txt {
+  font-size: 3rem;
+  max-width: 40rem;
+}
+.section-2-features-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+}
+.feature-box {
+  border: 0.1rem solid rgba(128, 128, 128, 0.325);
+  border-radius: 0.3rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: gray;
+  line-height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.feature-box h3 {
+  color: black;
+}
+.icon {
+  font-size: 4rem;
+}
+/* -----------SECTION-3---------- */
+.section-3 {
+  background-color: #60fdfa59;
+  padding: 5rem 10rem 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.section-3-twitter-boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.twiiter-box {
+  background-color: white;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: gray;
+  max-width: 40rem;
+}
+.twitter-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.twitter-profile-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.twitter-profile-name {
+  font-size: 1.6rem;
+}
+.twitter-profile-name p {
+  font-weight: 700;
+  color: black;
+}
+.twitter-likes {
+  display: flex;
+  justify-content: space-between;
+}
+.twitter-likes div {
+  display: flex;
+  gap: 1rem;
+}
+/* -----------SECTION-4---------- */
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem 10rem 5rem 10rem;
+}
+.section-4-plan-box {
+  background-color: rgba(245, 222, 179, 0.254);
+  padding: 2rem;
+  border: 0.1rem solid rgb(245, 222, 179);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 45rem;
+}
+.price-tag {
+  font-size: 1.6rem;
+  color: gray;
+  border-bottom: 0.1rem solid rgba(128, 128, 128, 0.176);
+  padding-bottom: 1rem;
+}
+.price-tag p span {
+  color: black;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.price-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+  color: gray;
+  border-bottom: 0.1rem solid rgba(128, 128, 128, 0.176);
+  padding-bottom: 1rem;
+}
+.price-specs div {
+  display: flex;
+  gap: 2rem;
+}
+.new img {
+  width: 6%;
+}
+/* -----------FOOTER---------- */
+footer {
+  padding: 3rem 10rem;
+  background-color: #60fdfa59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.footer-nav a {
+  font-size: 1.6rem;
+  color: gray;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+/* ------------------------- */
+.section-1-img-tablet {
+  display: none;
+}
+.hamburg-butt {
+  display: none;
+}
